@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Tue Nov 28 10:18:11 2023 as: nmap -O -sV -oA dancingo 445 10.129.210.156
+Host: 10.129.210.156 ()	Status: Up
+Host: 10.129.210.156 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///	Ignored State: closed (997)	Seq Index: 260	IP ID Seq: Incremental
+# Nmap done at Tue Nov 28 10:18:47 2023 -- 2 IP addresses (1 host up) scanned in 35.98 seconds

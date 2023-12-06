@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Wed Dec  6 05:59:31 2023 as: nmap -sVC -T4 -Pn -p- -oA Three 10.129.109.197
+Host: 10.129.109.197 (s3.thetoppers.htb)	Status: Up
+Host: 10.129.109.197 (s3.thetoppers.htb)	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/	Ignored State: closed (65533)
+# Nmap done at Wed Dec  6 06:00:16 2023 -- 1 IP address (1 host up) scanned in 45.27 seconds

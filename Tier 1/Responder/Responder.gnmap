@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Sat Dec  2 11:34:10 2023 as: nmap -A -sV -T4 -oA Responder 10.129.10.226
+Host: 10.129.10.226 ()	Status: Up
+Host: 10.129.10.226 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.52 ((Win64) OpenSSL|1.1.1m PHP|8.1.1)/	Ignored State: filtered (999)	Seq Index: 263	IP ID Seq: Incremental
+# Nmap done at Sat Dec  2 11:34:40 2023 -- 1 IP address (1 host up) scanned in 30.25 seconds

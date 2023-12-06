@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Tue Nov 28 10:14:11 2023 as: nmap -p- -sV -oA dancing 10.129.210.156 -->
+<nmaprun scanner="nmap" args="nmap -p- -sV -oA dancing 10.129.210.156" start="1701184451" startstr="Tue Nov 28 10:14:11 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.210.156" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>

@@ -1,0 +1,15 @@
+# Nmap 7.94 scan initiated Tue Nov 28 10:56:17 2023 as: nmap -sV -A -oA Redeemer 10.129.204.42
+Nmap scan report for 10.129.204.42
+Host is up (0.12s latency).
+All 1000 scanned ports on 10.129.204.42 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 23/tcp)
+HOP RTT       ADDRESS
+1   137.42 ms 10.10.14.1
+2   130.59 ms 10.129.204.42
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Nov 28 10:56:23 2023 -- 1 IP address (1 host up) scanned in 5.94 seconds

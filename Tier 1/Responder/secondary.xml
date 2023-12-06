@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Sat Dec  2 11:41:59 2023 as: nmap -sVC -Pn -p- -oA secondary 10.129.10.226 -->
+<nmaprun scanner="nmap" args="nmap -sVC -Pn -p- -oA secondary 10.129.10.226" start="1701535319" startstr="Sat Dec  2 11:41:59 2023" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1701535319" endtime="1701535750"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.10.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="unika.htb" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65532">
+<extrareasons reason="no-response" count="65532" proto="tcp" ports="1-79,81-5984,5986-7679,7681-65535"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Apache httpd" version="2.4.52" extrainfo="(Win64) OpenSSL/1.1.1m PHP/8.1.1" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.52</cpe></service><script id="http-title" output="Unika"><elem key="title">Unika</elem>
+</script><script id="http-server-header" output="Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1"><elem>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1</elem>
+</script></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script></port>
+<port protocol="tcp" portid="7680"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="pando-pub" method="table" conf="3"/></port>
+</ports>
+<times srtt="147405" rttvar="72251" to="436409"/>
+</host>
+<runstats><finished time="1701535750" timestr="Sat Dec  2 11:49:10 2023" summary="Nmap done at Sat Dec  2 11:49:10 2023; 1 IP address (1 host up) scanned in 430.28 seconds" elapsed="430.28" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
